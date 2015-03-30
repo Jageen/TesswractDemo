@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>865E9891-1EC0-4366-BB25-D53731C6D44B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TesswractDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7EB1D3A52BDF0792DD67A08514FCAD9A86A99B77</key>
+		<string>https://github.com/Jageen/TesswractDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TesswractDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7EB1D3A52BDF0792DD67A08514FCAD9A86A99B77</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Jageen/TesswractDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7EB1D3A52BDF0792DD67A08514FCAD9A86A99B77</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7EB1D3A52BDF0792DD67A08514FCAD9A86A99B77</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TesswractDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

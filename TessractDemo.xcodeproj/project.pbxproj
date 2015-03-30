@@ -32,7 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8C10D96D1AC9BF5A0005C4E5 /* TesswractDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesswractDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C10D96D1AC9BF5A0005C4E5 /* TessractDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TessractDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C10D9711AC9BF5A0005C4E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C10D9721AC9BF5A0005C4E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8C10D9741AC9BF5A0005C4E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		8C10D97B1AC9BF5A0005C4E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C10D97D1AC9BF5A0005C4E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8C10D9801AC9BF5A0005C4E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		8C10D9861AC9BF5A0005C4E5 /* TesswractDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TesswractDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C10D9861AC9BF5A0005C4E5 /* TessractDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TessractDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C10D98B1AC9BF5A0005C4E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C10D98C1AC9BF5A0005C4E5 /* TesswractDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TesswractDemoTests.m; sourceTree = "<group>"; };
 		8C10D9981AC9BFB30005C4E5 /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = "<group>"; };
@@ -88,8 +88,8 @@
 		8C10D96E1AC9BF5A0005C4E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8C10D96D1AC9BF5A0005C4E5 /* TesswractDemo.app */,
-				8C10D9861AC9BF5A0005C4E5 /* TesswractDemoTests.xctest */,
+				8C10D96D1AC9BF5A0005C4E5 /* TessractDemo.app */,
+				8C10D9861AC9BF5A0005C4E5 /* TessractDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,9 +140,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8C10D96C1AC9BF5A0005C4E5 /* TesswractDemo */ = {
+		8C10D96C1AC9BF5A0005C4E5 /* TessractDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C10D9901AC9BF5A0005C4E5 /* Build configuration list for PBXNativeTarget "TesswractDemo" */;
+			buildConfigurationList = 8C10D9901AC9BF5A0005C4E5 /* Build configuration list for PBXNativeTarget "TessractDemo" */;
 			buildPhases = (
 				8C10D9691AC9BF5A0005C4E5 /* Sources */,
 				8C10D96A1AC9BF5A0005C4E5 /* Frameworks */,
@@ -152,14 +152,14 @@
 			);
 			dependencies = (
 			);
-			name = TesswractDemo;
+			name = TessractDemo;
 			productName = TesswractDemo;
-			productReference = 8C10D96D1AC9BF5A0005C4E5 /* TesswractDemo.app */;
+			productReference = 8C10D96D1AC9BF5A0005C4E5 /* TessractDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8C10D9851AC9BF5A0005C4E5 /* TesswractDemoTests */ = {
+		8C10D9851AC9BF5A0005C4E5 /* TessractDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C10D9931AC9BF5A0005C4E5 /* Build configuration list for PBXNativeTarget "TesswractDemoTests" */;
+			buildConfigurationList = 8C10D9931AC9BF5A0005C4E5 /* Build configuration list for PBXNativeTarget "TessractDemoTests" */;
 			buildPhases = (
 				8C10D9821AC9BF5A0005C4E5 /* Sources */,
 				8C10D9831AC9BF5A0005C4E5 /* Frameworks */,
@@ -170,9 +170,9 @@
 			dependencies = (
 				8C10D9881AC9BF5A0005C4E5 /* PBXTargetDependency */,
 			);
-			name = TesswractDemoTests;
+			name = TessractDemoTests;
 			productName = TesswractDemoTests;
-			productReference = 8C10D9861AC9BF5A0005C4E5 /* TesswractDemoTests.xctest */;
+			productReference = 8C10D9861AC9BF5A0005C4E5 /* TessractDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -193,7 +193,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8C10D9681AC9BF5A0005C4E5 /* Build configuration list for PBXProject "TesswractDemo" */;
+			buildConfigurationList = 8C10D9681AC9BF5A0005C4E5 /* Build configuration list for PBXProject "TessractDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -206,8 +206,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8C10D96C1AC9BF5A0005C4E5 /* TesswractDemo */,
-				8C10D9851AC9BF5A0005C4E5 /* TesswractDemoTests */,
+				8C10D96C1AC9BF5A0005C4E5 /* TessractDemo */,
+				8C10D9851AC9BF5A0005C4E5 /* TessractDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,7 +258,7 @@
 /* Begin PBXTargetDependency section */
 		8C10D9881AC9BF5A0005C4E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8C10D96C1AC9BF5A0005C4E5 /* TesswractDemo */;
+			target = 8C10D96C1AC9BF5A0005C4E5 /* TessractDemo */;
 			targetProxy = 8C10D9871AC9BF5A0005C4E5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -370,7 +370,7 @@
 				);
 				INFOPLIST_FILE = TesswractDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TessractDemo;
 			};
 			name = Debug;
 		};
@@ -385,7 +385,7 @@
 				);
 				INFOPLIST_FILE = TesswractDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TessractDemo;
 			};
 			name = Release;
 		};
@@ -403,7 +403,7 @@
 				);
 				INFOPLIST_FILE = TesswractDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TessractDemoTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TesswractDemo.app/TesswractDemo";
 			};
 			name = Debug;
@@ -418,7 +418,7 @@
 				);
 				INFOPLIST_FILE = TesswractDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TessractDemoTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TesswractDemo.app/TesswractDemo";
 			};
 			name = Release;
@@ -426,7 +426,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8C10D9681AC9BF5A0005C4E5 /* Build configuration list for PBXProject "TesswractDemo" */ = {
+		8C10D9681AC9BF5A0005C4E5 /* Build configuration list for PBXProject "TessractDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C10D98E1AC9BF5A0005C4E5 /* Debug */,
@@ -435,21 +435,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C10D9901AC9BF5A0005C4E5 /* Build configuration list for PBXNativeTarget "TesswractDemo" */ = {
+		8C10D9901AC9BF5A0005C4E5 /* Build configuration list for PBXNativeTarget "TessractDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C10D9911AC9BF5A0005C4E5 /* Debug */,
 				8C10D9921AC9BF5A0005C4E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		8C10D9931AC9BF5A0005C4E5 /* Build configuration list for PBXNativeTarget "TesswractDemoTests" */ = {
+		8C10D9931AC9BF5A0005C4E5 /* Build configuration list for PBXNativeTarget "TessractDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C10D9941AC9BF5A0005C4E5 /* Debug */,
 				8C10D9951AC9BF5A0005C4E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

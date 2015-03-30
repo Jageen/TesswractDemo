@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8C10D96C1AC9BF5A0005C4E5"
-               BuildableName = "TesswractDemo.app"
-               BlueprintName = "TesswractDemo"
-               ReferencedContainer = "container:TesswractDemo.xcodeproj">
+               BuildableName = "TessractDemo.app"
+               BlueprintName = "TessractDemo"
+               ReferencedContainer = "container:TessractDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8C10D9851AC9BF5A0005C4E5"
-               BuildableName = "TesswractDemoTests.xctest"
-               BlueprintName = "TesswractDemoTests"
-               ReferencedContainer = "container:TesswractDemo.xcodeproj">
+               BuildableName = "TessractDemoTests.xctest"
+               BlueprintName = "TessractDemoTests"
+               ReferencedContainer = "container:TessractDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8C10D9851AC9BF5A0005C4E5"
-               BuildableName = "TesswractDemoTests.xctest"
-               BlueprintName = "TesswractDemoTests"
-               ReferencedContainer = "container:TesswractDemo.xcodeproj">
+               BuildableName = "TessractDemoTests.xctest"
+               BlueprintName = "TessractDemoTests"
+               ReferencedContainer = "container:TessractDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8C10D96C1AC9BF5A0005C4E5"
-            BuildableName = "TesswractDemo.app"
-            BlueprintName = "TesswractDemo"
-            ReferencedContainer = "container:TesswractDemo.xcodeproj">
+            BuildableName = "TessractDemo.app"
+            BlueprintName = "TessractDemo"
+            ReferencedContainer = "container:TessractDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8C10D96C1AC9BF5A0005C4E5"
-            BuildableName = "TesswractDemo.app"
-            BlueprintName = "TesswractDemo"
-            ReferencedContainer = "container:TesswractDemo.xcodeproj">
+            BuildableName = "TessractDemo.app"
+            BlueprintName = "TessractDemo"
+            ReferencedContainer = "container:TessractDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8C10D96C1AC9BF5A0005C4E5"
-            BuildableName = "TesswractDemo.app"
-            BlueprintName = "TesswractDemo"
-            ReferencedContainer = "container:TesswractDemo.xcodeproj">
+            BuildableName = "TessractDemo.app"
+            BlueprintName = "TessractDemo"
+            ReferencedContainer = "container:TessractDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

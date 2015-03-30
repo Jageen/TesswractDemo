@@ -1,6 +1,6 @@
 //
-//  TesswractDemoTests.m
-//  TesswractDemoTests
+//  TessractDemoTests.m
+//  TessractDemoTests
 //
 //  Created by Jageen shukla on 30/03/15.
 //  Copyright (c) 2015 Red. All rights reserved.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface TesswractDemoTests : XCTestCase
+@interface TessractDemoTests : XCTestCase
 
 @end
 
-@implementation TesswractDemoTests
+@implementation TessractDemoTests
 
 - (void)setUp {
     [super setUp];
