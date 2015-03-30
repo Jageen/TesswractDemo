@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="lT3-Lv-Cfw">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="zDL-P6-2Pt">
+            <objects>
+                <viewController id="lT3-Lv-Cfw" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Nv4-5R-EAZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZDO-xw-t0j"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jz7-1b-lLk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCE-HU-BK9">
+                                <rect key="frame" x="16" y="28" width="288" height="284"/>
+                                <color key="backgroundColor" white="1" alpha="0.70000000000000007" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pni-gn-peO">
+                                <rect key="frame" x="114" y="344" width="92" height="30"/>
+                                <state key="normal" title="Perform OCR">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="performOCR:" destination="lT3-Lv-Cfw" eventType="touchUpInside" id="jbx-12-htu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81345753051564151" green="0.9747474747474747" blue="0.82759180472471583" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="Pni-gn-peO" secondAttribute="centerX" id="Ima-6I-jcx"/>
+                            <constraint firstAttribute="trailing" secondItem="fCE-HU-BK9" secondAttribute="trailing" constant="16" id="McM-fy-brK"/>
+                            <constraint firstItem="fCE-HU-BK9" firstAttribute="top" secondItem="Nv4-5R-EAZ" secondAttribute="bottom" constant="8" id="ct4-jg-v6s"/>
+                            <constraint firstItem="Pni-gn-peO" firstAttribute="top" secondItem="fCE-HU-BK9" secondAttribute="bottom" constant="32" id="jfm-jB-MOB"/>
+                            <constraint firstItem="fCE-HU-BK9" firstAttribute="leading" secondItem="jz7-1b-lLk" secondAttribute="leading" constant="16" id="pxr-dk-IfM"/>
+                            <constraint firstItem="fCE-HU-BK9" firstAttribute="height" secondItem="jz7-1b-lLk" secondAttribute="height" multiplier="0.5" id="zbN-3s-GbL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="txtOutput" destination="fCE-HU-BK9" id="A2S-ni-MZS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="86O-Ws-UE8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-241" y="-64"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
